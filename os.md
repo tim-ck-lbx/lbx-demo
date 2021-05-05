@@ -26,9 +26,15 @@ echo $PATH
 ```
 
 ## Jupyter Scala
+- install spark
 ```sh
 brew install apache-spark
+```
+
+- install scala kernal
+```sh
 pip install spylon-kernel
 python -m spylon_kernel install
 jupyter notebook
+
 ```
