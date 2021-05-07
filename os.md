@@ -1,6 +1,3 @@
-
-
-
 ## GCP Setup
 - install homebrew
 ```sh
@@ -38,3 +35,16 @@ python -m spylon_kernel install
 jupyter notebook
 
 ```
+
+## IntelliJ 
+- sbt
+```
+brew install sbt
+sbt
+clean
+compile
+
+```
+- IntelliJ
+  - [BUILDING A SCALA PROJECT WITH INTELLIJ AND SBT](https://docs.scala-lang.org/getting-started/intellij-track/building-a-scala-project-with-intellij-and-sbt.html)
+
